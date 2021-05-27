@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implementation of the {IERC165} interface. Contracts that want to implement ERC165 should inherit from this contract and override {supportsInterface} to check for the additional interface id that will be supported. For example: ```solidity function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {     return interfaceId == type(MyInterface).interfaceId || super.supportsInterface(interfaceId); } ``` Alternatively, {ERC165Storage} provides an easier to use but more expensive implementation.",
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "See {IERC165-supportsInterface}."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"utils/introspection/ERC165.sol": "ERC165"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"utils/introspection/ERC165.sol": {
+			"keccak256": "0x27a410a52013d293532448bff30defb971e373767d6cd2722d2d281136f51369",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1db2deb5bc6fd8e564a015d18f80c823a06b8e6ab32f0c45aef4ac5a5d46fac",
+				"dweb:/ipfs/QmfLekZSgfmay5snyA3vt6AUfeSReHsvHSfN3RYBCdzBZM"
+			]
+		},
+		"utils/introspection/IERC165.sol": {
+			"keccak256": "0x7919b41745589fa99b716b868bf56b55a519264245c527ecd59701dff357c07a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e6b5c526674dfd9ffaad9e8bbffc99b2633f53e1af7bfd93b026f7fa8eedd04",
+				"dweb:/ipfs/QmVom1gmpHtt1W13G5UnzB9Dpwev8AWLM422z8x61bRdKr"
+			]
+		}
+	},
+	"version": 1
+}

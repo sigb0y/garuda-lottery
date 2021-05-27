@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface for any contract that wants to support safeTransfers from ERC721 asset contracts.",
+			"kind": "dev",
+			"methods": {
+				"onERC721Received(address,address,uint256,bytes)": {
+					"details": "Whenever an {IERC721} `tokenId` token is transferred to this contract via {IERC721-safeTransferFrom} by `operator` from `from`, this function is called. It must return its Solidity selector to confirm the token transfer. If any other value is returned or the interface is not implemented by the recipient, the transfer will be reverted. The selector can be obtained in Solidity with `IERC721.onERC721Received.selector`."
+				}
+			},
+			"title": "ERC721 token receiver interface",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/IERC721Receiver.sol": "IERC721Receiver"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/IERC721Receiver.sol": {
+			"keccak256": "0xfbf5487477dfc82f9978c8d7cff53e9cc0770899b729dcfd9451171ae38eb0db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://079f3284b235654db26019c5aaa3db227172db5ffbd69dfe6828ab0d369c0363",
+				"dweb:/ipfs/QmeYvPuPyzqMwzmSYez6BQQjhov2b4DhXCMwXXusBhRmJy"
+			]
+		}
+	},
+	"version": 1
+}
